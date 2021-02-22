@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared Fonts", "Shared Fonts", "{5744E7F0-340E-46A6-B8BD-94F7F947EA9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D691D185-FADB-47AF-9600-3F061C60DEFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{599B9F16-9ADB-49CA-A3BA-CDC5D9EFD5F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Systhem.Auth.Api", "src\Systhem.Auth.Api\Systhem.Auth.Api.csproj", "{F39470BB-A54F-4F6D-AADB-9AA0E43B9613}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7162831B-49B8-45AB-911C-933699161D85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6FDEDFDC-6230-48FF-893E-CA0831429199}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F39470BB-A54F-4F6D-AADB-9AA0E43B9613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39470BB-A54F-4F6D-AADB-9AA0E43B9613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39470BB-A54F-4F6D-AADB-9AA0E43B9613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39470BB-A54F-4F6D-AADB-9AA0E43B9613}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{599B9F16-9ADB-49CA-A3BA-CDC5D9EFD5F1} = {D691D185-FADB-47AF-9600-3F061C60DEFE}
+		{F39470BB-A54F-4F6D-AADB-9AA0E43B9613} = {599B9F16-9ADB-49CA-A3BA-CDC5D9EFD5F1}
+		{7162831B-49B8-45AB-911C-933699161D85} = {5744E7F0-340E-46A6-B8BD-94F7F947EA9A}
+		{6FDEDFDC-6230-48FF-893E-CA0831429199} = {5744E7F0-340E-46A6-B8BD-94F7F947EA9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98255FA9-3409-4874-BF77-056E70E9C8C6}
+	EndGlobalSection
+EndGlobal
