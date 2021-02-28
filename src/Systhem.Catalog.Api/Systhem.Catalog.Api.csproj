@@ -16,6 +16,7 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\sharedfonts\DomainObjects\DomainObjects.csproj" />
 	  <ProjectReference Include="..\sharedfonts\Systhem.Core\Systhem.Core.csproj" />
+	  <ProjectReference Include="..\sharedfonts\Systhem.WebApi.Core\Systhem.WebApi.Core.csproj" />
 	</ItemGroup>
 
 </Project>

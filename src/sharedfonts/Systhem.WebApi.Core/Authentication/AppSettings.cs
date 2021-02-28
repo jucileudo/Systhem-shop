@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Systhem.Auth.Api.Extensions
-{
+﻿namespace Systhem.WebApi.Core.Authentication
+{ 
     public class AppSettings
     {
         public string Secret { get; set; }

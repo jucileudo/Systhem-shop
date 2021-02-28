@@ -9,8 +9,8 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using Systhem.Auth.Api.Extensions;
 using Systhem.Auth.Api.Models;
+using Systhem.WebApi.Core.Authentication;
 
 namespace Systhem.Auth.Api.Controllers
 {

@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Systhem.WebApi.Core.Authentication;
 
 namespace Systhem.Auth.Api.Configuration
 {
@@ -29,7 +30,7 @@ namespace Systhem.Auth.Api.Configuration
 
             app.UseRouting();
 
-            app.UseIdentityConfiguration();
+            app.UseAuthConfiguration();
 
             app.UseEndpoints(endpoints =>
             {

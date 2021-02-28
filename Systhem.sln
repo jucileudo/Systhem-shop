@@ -13,15 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Systhem.Auth.Api", "src\Sys
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7162831B-49B8-45AB-911C-933699161D85}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6FDEDFDC-6230-48FF-893E-CA0831429199}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api Core", "Api Core", "{6FDEDFDC-6230-48FF-893E-CA0831429199}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Systhem.Core", "src\sharedfonts\Systhem.Core\Systhem.Core.csproj", "{00D60276-747E-4AEC-A018-53AB51CB59DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Systhem.Core", "src\sharedfonts\Systhem.Core\Systhem.Core.csproj", "{00D60276-747E-4AEC-A018-53AB51CB59DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainObjects", "src\sharedfonts\DomainObjects\DomainObjects.csproj", "{F33F30A1-C813-4818-9343-2280D89B3331}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainObjects", "src\sharedfonts\DomainObjects\DomainObjects.csproj", "{F33F30A1-C813-4818-9343-2280D89B3331}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{44C1B159-803E-4160-BC15-AAF1CB6A9B0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Systhem.Catalog.Api", "src\Systhem.Catalog.Api\Systhem.Catalog.Api.csproj", "{D1431AA1-6B73-4B71-A39A-9640D37F373E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Systhem.Catalog.Api", "src\Systhem.Catalog.Api\Systhem.Catalog.Api.csproj", "{D1431AA1-6B73-4B71-A39A-9640D37F373E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Systhem.WebApi.Core", "src\sharedfonts\Systhem.WebApi.Core\Systhem.WebApi.Core.csproj", "{752ADB80-CE30-4D99-B542-D4CD4D83AE62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D1431AA1-6B73-4B71-A39A-9640D37F373E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1431AA1-6B73-4B71-A39A-9640D37F373E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1431AA1-6B73-4B71-A39A-9640D37F373E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752ADB80-CE30-4D99-B542-D4CD4D83AE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752ADB80-CE30-4D99-B542-D4CD4D83AE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752ADB80-CE30-4D99-B542-D4CD4D83AE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752ADB80-CE30-4D99-B542-D4CD4D83AE62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{F33F30A1-C813-4818-9343-2280D89B3331} = {7162831B-49B8-45AB-911C-933699161D85}
 		{44C1B159-803E-4160-BC15-AAF1CB6A9B0D} = {D691D185-FADB-47AF-9600-3F061C60DEFE}
 		{D1431AA1-6B73-4B71-A39A-9640D37F373E} = {44C1B159-803E-4160-BC15-AAF1CB6A9B0D}
+		{752ADB80-CE30-4D99-B542-D4CD4D83AE62} = {6FDEDFDC-6230-48FF-893E-CA0831429199}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98255FA9-3409-4874-BF77-056E70E9C8C6}

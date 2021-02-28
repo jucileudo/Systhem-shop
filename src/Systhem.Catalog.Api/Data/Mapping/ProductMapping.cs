@@ -26,7 +26,7 @@ namespace Systhem.Catalog.Api.Data.Mapping
                 .IsRequired()
                 .HasColumnType("varchar(250)");
 
-            builder.ToTable("Produtos");
+            builder.ToTable("Products");
         }
     }
 }
